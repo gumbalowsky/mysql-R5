@@ -1,0 +1,28 @@
+{
+	"user": "gumbalowsky",
+	"repo": "mysql-R5",
+	"runtime": {
+        "plugins": ["gumbalowsky/mysql-R5"]
+    },
+	"resources": [
+        {
+            "name": "mysql-r5-win.zip",
+            "platform": "windows",
+            "archive": true,
+            "plugins": ["plugins/mysql.dll"],
+            "files": {
+                "libmysql.dll": "libmysql.dll"
+            }
+        },
+        {
+            "name": "mysql-r5-linux.tar.gz",
+            "platform": "linux",
+            "archive": true,
+            "plugins": ["plugins/mysql.so"],
+			"files": {
+                "libmysqlclient.so.16": "libmysqlclient.so.16",
+				"libmysqlclient_r.so.16": "libmysqlclient_r.so.16"
+            }
+        }
+    ]
+}

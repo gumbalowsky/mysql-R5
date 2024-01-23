@@ -21,7 +21,8 @@
             "plugins": ["plugins/mysql.so"],
 			"files": {
                 "libmysqlclient.so.16": "libmysqlclient.so.16",
-				"libmysqlclient_r.so.16": "libmysqlclient_r.so.16"
+				"libmysqlclient_r.so.16": "libmysqlclient_r.so.16",
+				"libmysqlclient.so.15": "libmysqlclient.so.15"
             }
         }
     ]
